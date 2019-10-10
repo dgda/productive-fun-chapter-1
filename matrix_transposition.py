@@ -15,7 +15,8 @@ def main():
 def transpose_matrix(matrix):
     N = len(matrix)
     M = len(matrix[0])
-    # First row will suffice because in matrices, len(matrix[0]) == len(matrix[N])
+    # Length of first row will suffice because in matrices, 
+    # len(matrix[0]) == len(matrix[N])
 
     # Works for square and rectangular matrices
     transposed_matrix = [
